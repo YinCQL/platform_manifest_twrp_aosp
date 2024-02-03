@@ -15,7 +15,7 @@
             fetch="https://github.com/YinCQL"/>
 
     <!-- TWRP lives in TeamWin android-11 (not AOSP!) -->
-    <project path="bootable/recovery" name="android_bootable_recovery_11" remote="YinCQL" revision="android-11"/>
+    <project path="bootable/recovery" name="android_bootable_recovery_11" remote="YinCQL" revision="patch"/>
 
     <project path="build/make" name="android_build" remote="TeamWin" revision="android-11" groups="pdk">
         <copyfile src="core/root.mk" dest="Makefile"/>
